@@ -1,3 +1,12 @@
+/*CSS Banner for all webpage links*/
+.berserk-logo {
+    background-image: url(/ImgResources/Berserk_anime_logo.png);
+    max-width: 100%;
+    height: 6.5em;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
 /*Images set to single line and flexible using flexbox*/
 #navbar {
     background: #000; 
@@ -20,7 +29,7 @@
 }
 
 #navbar .nav-list a{
-    color:azure;
+    color: white;
     text-decoration: inherit;
     display: block;
     padding: 1px;
@@ -29,7 +38,7 @@
 /*CSS to focus on IMG tweaking*/
 #navbar .nav-list img {
     display: block;
-    height: 33rem;
+    height: 65rem;
     width: 100%;
     object-fit: cover;
     object-position: 50% 20%;
