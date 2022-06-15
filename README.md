@@ -30,3 +30,12 @@ Atomic Commit(s): 5/31/2022
 -Adjusted planning: To finish Index page and navigation through HTML and CSS. Then moving on to "story" page
 to add content, visuals and object with further navigation. Considering interlocking navigation to make all pages accessible from 
 currently viewed page. Will continue to modify HTML, CSS, and JS as progress is made.
+
+Atomic Commit(s) 6/15/2022
+-Modified button CSS across all pages
+-Added more HTML content
+-Established JS placeholders for future JS works
+-Add more IMG resources
+-Tweaked CSS in Work-In-Progress pages (all of them basically)
+-Reworked page behaviors 
++Future plan to work in the z-index of the CSS, begin final stages of HTML content, prep for JS programming and database as learned, also push more code into CSS and possible nesting.
