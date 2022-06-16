@@ -1,4 +1,13 @@
 /*CSS Banner for all webpage links*/
+
+header{
+  display:block;
+  background-color: rgb(255, 255, 255);
+  padding: 8px 8px 8px 8px;
+  width: 100%;
+}
+
+
 .berserk-logo {
   background-image: url(/ImgResources/Berserk_anime_logo.png);
   max-width: 100%;
@@ -6,6 +15,7 @@
   background-repeat: no-repeat;
   background-size: contain;
 }
+
 
 /*Button CSS for header navigation between all pages*/
 .button {
