@@ -1,60 +1,46 @@
+html {
+  background-image: linear-gradient(
+    90deg, 
+    rgb(128, 128, 128), 
+    rgba(128, 128, 128, 0.445)), 
+  url(/ImgResources/BerserkCollageBG.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
 /*CSS Banner for all webpage links*/
 
 header{
-  display:block;
+  display: inline-block;
   background-color: rgb(255, 255, 255);
-  padding: 8px 8px 8px 8px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
 }
 
-
-.berserk-logo {
-  background-image: url(/ImgResources/Berserk_anime_logo.png);
-  max-width: 100%;
-  height: 6.5em;
-  background-repeat: no-repeat;
-  background-size: contain;
+li {
+  float: left;
 }
 
-
-/*Button CSS for header navigation between all pages*/
-.button {
-  display: inline-block;
-  border-radius: 4px;
-  background-color: rgba(161, 3, 3, 0.788);
-  border: none;
-  color: #FFFFFF;
+li a {
+  display: block;
+  color: white;
   text-align: center;
-  font-size: 24px;
-  padding: 20px;
-  width: 200px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 5px;
-  font-family: 'Cinzel', serif;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-.button span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-.button span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
-.button:hover span {
-  padding-right: 25px;
-}
-
-.button:hover span:after {
-  opacity: 1;
-  right: 0;
+/* Change the link color to #111 or (black) on hover */
+li a:hover {
+  background-color: rgb(0, 0, 0);
 }
