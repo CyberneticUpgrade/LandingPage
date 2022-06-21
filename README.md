@@ -39,3 +39,13 @@ Atomic Commit(s) 6/15/2022
 -Tweaked CSS in Work-In-Progress pages (all of them basically)
 -Reworked page behaviors 
 +Future plan to work in the z-index of the CSS, begin final stages of HTML content, prep for JS programming and database as learned, also push more code into CSS and possible nesting.
+
+Atomic Commit(s) 6/21/2022
+-Modified classes in navigation in all pages.
+-CSS changes in Characters, Current, and Story pages.
+-ImgResources added
+-Folders for future organization added
+-Edited CSS due to HTML&CSS conlicts and errors
+-More content added in all pages
+-Began work for Characters page and navigation to other pages.
++Began research for JS, Icon, and sound resources.
