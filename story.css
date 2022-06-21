@@ -77,7 +77,7 @@ body::before {
       rgb(0, 0, 0),
       rgba(54, 54, 54, 0.212)
     ),
-    url(/ImgResources/BerserkCollageBG.jpg);
+    url(ImgResources/BerserkCollageBG.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
